@@ -1,0 +1,223 @@
+.plan {
+  flex: 4;
+}
+.facilities {
+  width: 80%;
+  text-align: center;
+  padding-top: 100px;
+}
+.h3-plane{
+  
+  font-size: 28px;
+  font-weight: 600; 
+  color: black;
+}
+.featured {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.p-plane{
+  color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.featuredItem {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  height: 300px;
+}
+.facilities-col {
+  flex-basis: 25%;
+  border: 2px solid #f44336;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  background: #fff3f3;
+  height: 300px;
+  padding: 20px;
+}
+.visit-us-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 34px;
+  font-size: 16px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.visit-us-btn:hover {
+  border: 1px solid #f44336;
+  background: #f44336;
+  transition: 1s;
+}
+.red-btn {
+  border: 2px solid #f44336;
+  background: transparent;
+  color: #f44336;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+  padding-top: 30px;
+}
+.row-radio {
+  font-size: 16px;
+  display: flex;
+  background-color: #fff3f3;
+  flex-direction: row;
+  align-items: flex-start;
+  border: 2px solid #f44336;
+  border-radius: 10px;
+  margin-top: 5%;
+  height: 100px;
+  margin-bottom: 5%;
+  justify-content: flex-start;
+}
+.row-radio2 {
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+.label1 {
+  font-size: 32;
+}
+.radio-inline {
+  font-size: 32px;
+  font-weight: 600;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 230px;
+}
+.radio-inline3 {
+  font-size: 32px;
+  font-weight: 600;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+.radio-box {
+  justify-content: space-between;
+}
+.input-radio {
+  size: 50px;
+}
+
+
+
+.custom-radio-btn {
+  --size: 25px;
+  min-width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: row;
+  margin: 0 10px;
+  position: relative;
+  padding-left: var(--size);
+  margin-right: 210px;
+  margin-left: 20px;
+}
+.custom-radio-btn input {
+  display: none;
+}
+
+/* handle if you want label on the left of the checkmark instead */
+
+.custom-radio-btn.left {
+  padding-left: 0;
+  padding-right: var(--size);
+}
+
+/* label  */
+
+.custom-radio-btn .label {
+  margin-left: 5px;
+}
+
+.custom-radio-btn.left .label {
+  margin: 0 5px;
+}
+
+.custom-radio-btn[aria-label]::after {
+  content: attr(aria-label);
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* checkmark */
+
+.custom-radio-btn .checkmark {
+  --gap: 3px;
+  --border: 2px;
+  --check-color: #f44336;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  display: inline-block;
+  transition: opacity 0.3s ease;
+  /* changes from the video  */
+
+  border: var(--border) solid #444;
+  padding: var(--gap);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.custom-radio-btn.left .checkmark {
+  left: auto;
+  right: 0;
+}
+
+.custom-radio-btn input:checked ~ .checkmark {
+  /* changes from the video  */
+
+  /*  content box origin will make sure the bg-image only stays inside content area in between padding  */
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(
+    circle at center,
+    var(--check-color)
+      /* the size of the check mark is determined by subtracting from the size of the circle
+     the border(both sides) and the gap(both sides) than dividing it by 2 to get the radius of the circle        */
+      calc((var(--size) - (var(--border) * 2) - (var(--gap) * 2)) / 2),
+    rgba(255, 255, 255, 0) 0
+  );
+}
+.radio{
+  background-color:#fff3f3;
+  justify-content:space-between;
+  padding:20px;
+  border:2px solid #f44336;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+background-color: rgb(109, 207, 109);
+color: white;
+border:3px solid Green;
+width: 400px;
+}
+p#alert-dialog-slide-description{
+  color:rgb(0, 0, 0)
+}

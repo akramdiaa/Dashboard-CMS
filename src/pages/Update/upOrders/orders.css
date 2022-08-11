@@ -1,0 +1,326 @@
+.user1 {
+  flex: 4;
+  padding: 20px;
+}
+
+.userTitleContainer1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userContainer1 {
+  display: flex;
+  margin-top: 20px;
+}
+.MuiDataGrid-menuIcon{
+  visibility:visible;
+  padding:6px;
+}
+.button#mui-32717{
+  padding:0px;
+  background-color: black;
+}
+.MuiButtonBase-root .MuiIconButton-sizeSmall{
+  background-color: black;
+}
+.MuiIconButton-sizeSmall{
+background-color: black;
+}
+.userShow1 {
+  width: 250px;
+  padding: 20px;
+  height: 200px;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.34);
+  margin-left: 210px;
+}
+.userUpdate {
+  padding: 20px;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.34);
+}
+.userUpdate2
+{
+  padding: 20px;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.34);
+  margin-top: 15px;
+  margin-left: 20px;
+
+}
+
+
+.userShowTop1 {
+  display: flex;
+  align-items: center;
+}
+
+h5
+{
+  margin-right: 10px;
+}
+
+.userShowTopTitle1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+}
+
+.userShowUsername {
+  font-weight: 600;
+}
+
+.userShowUserTitle {
+  font-weight: 300;
+}
+
+.userShowBottom{
+    margin-top: 20px;
+}
+
+.userShowTitle1 {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+.userShowTitle12 {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin-top: 40px;
+}
+.userShowTitle2
+{
+  font-size: 24px;
+  font-weight: 600;
+}
+.userShowTitle3
+{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.userShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+
+.userShowIcon{
+    font-size: 16px !important;
+}
+
+.userShowInfoTitle{
+    margin-left: 10px;
+}
+
+.userUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.userUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.userUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+.userUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.userUpdateInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.userUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+
+.userUpdateIcon{
+    cursor: pointer;
+}
+
+.btn{
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  width: 60px;
+  height: 30px;
+  background-color: rgb(0, 0, 0);
+}
+.btn:hover
+{
+  border-radius: 1500px;
+  border: solid 1px rgb(170, 170, 202);
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+.userUpdateItem1{
+  display: flex;
+  margin-top: 10px;
+}
+
+.prd{
+  margin-right: 250px;
+}
+.btn2
+{
+  cursor: pointer;
+  width:200px;
+  background-color: white;
+  color: rgb(65, 65, 255);
+  font-weight: bold;
+  border: solid 0.5px white;
+  padding: 7px
+}
+.btn2:hover
+{
+  border: solid 0.5px;
+  border-radius: 10px;
+}
+.userUpdateItem2
+{
+  width: 500px;
+  display:flex;
+  border: 0 solid;
+  padding:5px;
+  border-radius: 5px;
+}
+.userUpdateItem3
+{
+  width: 500px;
+  display:block;
+  border: 1 solid;
+  padding:5px;
+  border-radius: 5px;
+}
+
+.userUpdateItem3:hover{
+  border: solid 1px #f44665;
+  transition: 0.5s;
+}
+.userUpdateItem4
+{
+  width: 100%;
+  display:block;
+  border: 1 solid;
+  padding:5px;
+  border-radius: 5px;
+  margin-top:10px ;
+}
+.userUpdateItem4:hover{
+  border: solid 1px #4946f4;
+  transition: 0.5s;
+}
+.search
+{
+  border:none;
+  margin-left: 5px;
+  width: 450px;
+}
+.color
+{
+  margin-top:50px;
+  margin-bottom:10px;
+}
+.code
+{
+  margin-top:20px;
+
+}
+.btn3
+{
+  background-color: white;
+  color: rgb(42, 42, 42);
+  cursor: pointer;
+  border: solid 1px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left:40px;
+  border-radius: 3px;
+  width:100px;
+}
+.btn3:hover
+{
+  background-color: rgb(242, 242, 242);
+  transition: 1s;
+}
+.flex
+{
+  display:block;
+}
+.flex2
+{
+  direction: ltr;
+}
+.end
+{
+text-align: end;
+}
+.end-s
+{
+
+text-align: end;
+color: #20bf6b;
+
+}
+.btn4
+{
+  background-color:rgba(0, 128, 96, 1);
+  color:white;
+  border: none;
+  cursor: pointer;
+  border-radius:0.25rem;
+  font-size:20px;
+  width:170px;
+  height:40px;
+  margin-top:20px
+}
+.btn4:hover
+{
+  background-color: rgba(0, 110, 82, 1);
+  cursor: pointer;
+}
+.pay
+{
+  border-top: solid 1px;
+  margin-top:20px
+}
+.prd-nm{
+  margin-bottom:40px
+}
+.txt-tot{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 10px;
+  padding-top: 30px;
+  text-align: end;
+  color: rgba(0, 110, 82, 1);
+}

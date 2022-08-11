@@ -1,0 +1,39 @@
+.uprefund {
+    flex: 4;
+  }
+.uprefundtitle{
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 70px;
+    text-align: center;
+    margin-top: 5%;
+}
+.select_refund {
+    color: #000000;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid ;
+}
+.btn-cont3 {
+    margin-top: 50px;
+    flex-direction: row;
+    display: flex;
+}
+.btn-sub3{
+    border: none;
+    background-color: #3bb077;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    margin-left: 250px;
+}
+.h3_loading{
+    font-size: 26px;
+    justify-content: center;
+    text-align: center;
+}

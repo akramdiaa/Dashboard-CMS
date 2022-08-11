@@ -1,0 +1,333 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.product {
+  flex: 4;
+  padding: 20px;
+  width: 100%;
+}
+.bnmn {
+  background-color: rgba(243, 243, 243, 0.753);
+  width: 500px;
+  height: 500px;
+  box-shadow: 0 0 2px grey;
+  padding: 20px;
+  margin-top: 30px;
+  border: 0px solid;
+  
+}
+.bnmn-img{
+  width: 450px;
+  height: 450px;
+  padding: 20px;
+
+}
+.upP {
+  font-size: 20px;
+  border-radius: 0.2em;
+  margin: 10px;
+  margin-left: 30%;
+  width: 600px;
+}
+
+.upP2 {
+  font-size: 20px;
+  border-radius: 0.2em;
+  background: white;
+  width: 600px;
+  margin-left: 30%;
+}
+.divi {
+  display: flex;
+}
+.dvF {
+  display: flex;
+}
+
+
+.tst {
+  border: 1px solid rgba(128, 128, 128, 0.418);
+  margin: 5px;
+  color: black;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+.tst:hover {
+  border: 1px solid #e67e22;
+  color: #e67e22;
+}
+.tst2 {
+  border: 1px solid rgba(128, 128, 128, 0.418);
+  color: black;
+  width: 40px;
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.tst2:hover {
+  border: 1px solid #dda027;
+  color: #f6b93b;
+}
+.btnUP {
+  margin-top: 20%;
+}
+.btnUP2 {
+  margin-top: 10%;
+}
+.btnUP3 {
+  margin-top: 8%;
+}
+.deBtn {
+  color: red;
+  font-size: 40px;
+  font-weight: 900;
+  background-color: #dda02700;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.deBtn:hover {
+  color: red;
+  font-size: 40px;
+  font-weight: 900;
+
+  border: none;
+  box-shadow: 0 0 7px rgb(182, 182, 182);
+  transition: 0.5s;
+  border-radius: 100px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.deBtn2 {
+  cursor: pointer;
+  color: green;
+  font-size: 40px;
+  font-weight: 900;
+  background-color: #dda02700;
+  border: none;
+}
+.deBtn2:hover {
+  cursor: pointer;
+  color: green;
+  font-size: 40px;
+  font-weight: 900;
+  transition: 0.5s;
+  border-radius: 100px;
+  box-shadow: 0 0 7px rgb(182, 182, 182);
+  background-color: #dda02700;
+  border: none;
+}
+.deBtn4 {
+  color: red;
+  font-size: 40px;
+  font-weight: 900;
+  background-color: #dda02700;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.deBtn4:hover {
+  color: red;
+  transition: 0.5s;
+  border-radius: 100px;
+  font-size: 40px;
+  box-shadow: 0 0 7px rgb(182, 182, 182);
+  font-weight: 900;
+  background-color: #dda02700;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.mn98 {
+  margin-top: 5%;
+}
+.dva{
+  display: flex;
+}
+.bnmb{
+  background:none;
+  border: 1px solid;
+  height: 30px;
+  font-size: 20px;
+  color: green;
+  margin-top: 8px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.bnmb:hover{
+  background:none;
+  border: 1px solid;
+  height: 30px;
+  font-size: 20px;
+  color: green;
+  transition: 0.5s;
+  background-color:rgba(0, 128, 0, 0.39);
+  margin-top: 8px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.bnmb:active{
+  background:none;
+  border: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color:rgba(0, 128, 0, 0.623) ;
+  cursor: pointer;
+  content:"Selected"
+}
+.bnmb:focus, .bnmb:active:focus {
+  background:none;
+  border: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color:rgba(0, 128, 0, 0.623) ;
+  cursor: pointer;
+  content:"Selected"
+}
+.bnmb:visited {
+  background:none;
+  border: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color:rgba(0, 128, 0, 0.623) ;
+  cursor: pointer;
+  content:"Selected"
+}
+
+
+.bnmb2{
+  background:#efefef;
+  border: 0px solid;
+  padding: 3px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  margin-top: 8px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #efefef ;
+}
+.bnmb2:hover{
+  color:white;
+  transition: 0.5s;
+  background-color:black;
+  border: 1px solid white;
+}
+.bnmb2:active{
+  background:none;
+  border: none;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color:black ;
+  cursor: pointer;
+  border: 1px solid black ;
+  content:"Selected"
+}
+.bnmb2:focus, .bnmb2:active:focus {
+  background:none;
+  border: none;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color:black ;
+  cursor: pointer;
+  content:"Selected";
+  border: 1px solid black ;
+}
+.bnmb2:visited {
+  background:none;
+  border: none;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color:black ;
+  cursor: pointer;
+  content:"Selected";
+  border: 1px solid black ;
+}
+
+.container-tst{
+  flex: 4;
+}
+.tstig{
+  width: 700px;
+}
+.each-slide-effect > div {
+display: flex;
+align-items: center;
+justify-content: center;
+background-size: cover;
+height: 400px;
+}
+
+.each-slide-effect span {
+padding: 20px;
+font-size: 20px;
+background: #efefef;
+text-align: center;
+}
+
+.btn-del{
+  width: 100px;
+  background:#ee0000;
+  border: 0px solid;
+  padding: 3px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  margin-top: 8px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-del:hover{
+  background-color: rgb(184, 7, 7);
+  transition: 0.5s;
+
+  box-shadow: 0px 0px 2px 2px rgba(179, 92, 92, 0.75);
+}
+.btn-up{
+  margin-top:30px;
+  padding: 10px;
+  background-color: #3498db;
+  color:white;
+  border: 0px solid #3498db;
+  cursor:pointer;
+  border-radius: 5px;
+}
+.btn-up:hover{
+  background-color: #2d84be;
+  transition: 0.5s;
+  box-shadow: 0px 0px 1px 1px rgb(170, 170, 170);
+}
+.flex36{
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+  margin-bottom: 10px;
+
+}
+.flex36 button{
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 2px;
+  font-size:50px;
+  background-color:white;
+  border:0px solid;
+  color:#3498db;
+  cursor:pointer;
+}
+.flex36 button:hover{
+  background-color:#3498db31;
+  border-radius: 50px;
+  transition: 0.5s;
+}

@@ -1,0 +1,79 @@
+.profile {
+  flex: 4;
+}
+.profile2 {
+  border: solid 3px #f44336;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 0.5rem;
+  padding: 20px;
+  color: black;
+  margin: 20px;
+}
+.txto {
+  border-bottom: 1px solid black;
+}
+.profile6 {
+  
+  border: solid 3px #f44336;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 0.5rem;
+  padding: 20px;
+  color: black;
+  margin: 20px;
+}
+.profile7 {
+  border: solid 3px #f44336;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 0.5rem;
+  padding: 20px;
+  color: black;
+  margin: 20px;
+}
+
+.dv {
+  width: 60%;
+}
+
+.bttnP {
+    border: none;
+    background-color: #3bb077;
+    color: white;
+    width: 100px;
+    padding: 10px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.profil-btn{
+  align-items: center;
+  text-align: center;
+}
+.bttnP:hover {
+  background-color: #30336b60;
+  transition: 1s;
+}
+#btn {
+  text-align: end;
+}
+.txtP2 {
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 20px;
+  color: #130f40;
+}
+
+.txtPP {
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: "PT Serif", serif;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.prof {
+  display: flex;
+  border-top: 0.02px solid rgb(0, 0, 0);
+}
