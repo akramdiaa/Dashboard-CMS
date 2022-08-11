@@ -1,0 +1,84 @@
+.cate1
+{
+    flex: 4;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 3%;
+}
+.cat-box{
+  padding: 50px;
+  border: solid 3px #f44336;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 10px;
+  margin: 40px;
+  margin-left: 20%;
+  width: 50%;
+  
+}
+.cat-box1{
+    
+    text-align: center;
+}
+.new-cat2{
+  text-align:center ;
+  margin-bottom: 50px;
+}
+.cate-cont1{
+    align-items: center;
+    margin-top: 30px;
+    width: 400px;
+    display: flex;
+    
+}
+.txt-name1{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin-right: 20px;
+    
+}
+.txt-name2{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin-right: 45px;
+}
+.btn-cont1{
+margin-top: 50px;
+}
+.btn-sub1
+{
+    border: none;
+    background-color: #3bb077;;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+}
+.btn-sub1:hover
+{
+    
+    background-color: white;
+    color: #3bb077;
+    transition: 1s;
+    border: solid 1px;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+}
+.newUserTitle{
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.btn-lft{
+    margin-left: 100px;
+}

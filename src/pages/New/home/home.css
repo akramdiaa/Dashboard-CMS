@@ -1,0 +1,158 @@
+.home{
+  flex: 4;
+  margin-top: 40px;
+}
+.title-home{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  
+}
+.p-home{
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: 20px;
+  color: #555;
+}
+.about-us-home {
+  width: 80%;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.homeWidgets{
+  display: flex;
+  margin: 10px;
+  flex-basis: 90%;
+  padding-left: 100px;
+  border: 3px solid #f44336;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.row-home{
+  margin-top: 5%;
+  display: flex;
+
+  justify-content: space-between;    
+}
+.about-col-home{
+  width: 90%;
+  margin-left: 30px;
+}
+.about-col-home-img{
+width: 20%;
+}
+.about-us{
+  width: 100%;
+  padding-bottom: 50px; 
+}
+.home-col{
+  flex-basis: 100%;
+  padding: 30px 2px;
+  justify-content: flex-start;
+
+}
+
+.about-col h1{
+  padding-top: 0;
+}
+
+.home-a {
+  text-decoration: none !important;
+  color: #f44336;
+}
+.home-a:hover{
+    color: #3bb077;
+    transition: 0.5s;
+}
+.activate-btn102{
+    padding-top: 40px;
+    padding-left: 550px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.activate-btn2{
+  display: inline-block;
+  text-decoration: none;
+  color: #f44336;
+  border: 1px solid #555;
+  padding: 12px 34px;
+  font-size: 16px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  align-items: center;
+  
+}
+.activate-btn2:hover{
+  border: 1px solid #f44336 ;
+  color: white;
+  background:#f44336 ;
+  transition: 1s;
+}
+
+.al {
+  cursor: pointer;
+  margin: 20px;
+  border: 0px solid;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px 30px;
+  position: relative;
+  overflow: hidden;
+}
+.al:hover .wave {
+  top: -120px;
+}
+.al span {
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 8px;
+}
+.al .wave {
+  width: 300px;
+  height: 200px;
+  background-color: #444857;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: -80px;
+  transition: 0.4s;
+}
+.al .wave::before,
+.al .wave::after {
+  width: 130%;
+  height: 200%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+.al .wave::before {
+  border-radius: 45%;
+  background-color: #141414;
+  animation: wave 5s linear infinite;
+}
+.al .wave::after {
+  border-radius: 40%;
+  background-color: rgba(20, 20, 20, 0.5);
+  animation: wave 10s linear infinite;
+}
+.img_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@keyframes wave {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}

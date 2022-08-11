@@ -1,0 +1,126 @@
+.productList {
+  flex: 4;
+  height: 450px;
+  text-align: center;
+}
+
+.productListItem {
+  display: flex;
+  align-items: center;
+}
+
+.productListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.btn-sub3 {
+  border: none;
+  background-color: #3bb077;
+  color: white;
+  margin-left: 50px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  font-size: 16px;
+}
+.btn-sub3:hover {
+  background-color: white;
+  color: #3bb077;
+  transition: 1s;
+  border: solid 1px;
+  height: 40px;
+  width: 120px;
+  font-size: 16px;
+}
+.btn-sub4 {
+  border: none;
+  background-color: #e62222;
+  color: white;
+  margin-left: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  font-size: 16px;
+}
+.btn-sub4:hover {
+  background-color: white;
+  color: #e62222;
+  transition: 1s;
+  border: solid 1px;
+  font-size: 16px;
+}
+
+
+.productListEdit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #3bb077;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.productListDelete {
+  color: red;
+  cursor: pointer;
+}
+.op {
+  text-align: center;
+  padding-top: 20px;
+}
+.op2 {
+  text-align: center;
+  margin-bottom: 5%;
+
+}
+.addProductItem2 {
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+}
+.mnh {
+  border: 1px solid rgb(163, 163, 163);
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 5%;
+}
+.btn-sub1 {
+  border: none;
+    background-color: #3bb077;
+    color: white;
+    margin-left: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    margin-left: 350px;
+}
+.bnm5:hover {
+  border: 0 solid;
+  background-color: rgba(0, 128, 0, 0.26);
+  cursor: pointer;
+  color: green;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 50px;
+  height: 50px;
+  transition: 2s;
+}
+.cx {
+  display:flex;
+  margin-left: 15%;
+  margin-bottom: 10%;
+  text-align: start;
+  justify-content: flex-start;
+}

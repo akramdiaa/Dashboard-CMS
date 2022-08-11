@@ -1,0 +1,98 @@
+.newUserForm1{
+  padding: 50px;
+    border: solid 3px #f44336;
+    box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+    border-radius: 10px;
+    margin: 40px;
+    margin-left: 25%;
+    width: 40%;
+    display: flex;
+
+}
+.knm{
+  margin-top: 50px;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20%;
+}
+.ship-lbl{
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+.newshipButton{
+  width: 100px;
+  
+  height: 40px;
+  border: none;
+  background-color: #3bb077;
+  color: white;
+  margin-left: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.newshipButton:hover{
+  background-color: white;
+    color: #3bb077;
+    transition: 1s;
+    border: solid 1px;
+}
+.newUserItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+.newshipForm{
+  padding: 50px;
+    border: solid 3px #f44336;
+    box-shadow: rgb(0 0 0 / 30%) 0px 19px 38px, rgb(0 0 0 / 22%) 0px 15px 12px;
+    border-radius: 10px;
+    margin: 40px;
+    margin-left: 20%;
+    width: 50%;
+    display: flex;
+}
+.btn-upsh{
+  border: none;
+    background-color: #e62222;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+}
+
+.btn-upsh:hover{
+  background-color: white;
+  color: #e62222;
+  transition: 1s;
+  border: solid 1px;
+  font-size: 16px;
+}
+.btn-upsh1{
+  border: none;
+    background-color: #3bb077;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+}
+
+.btn-upsh1:hover{
+  background-color: white;
+  color: #3bb077;
+  transition: 1s;
+  border: solid 1px;
+  font-size: 16px;
+}
